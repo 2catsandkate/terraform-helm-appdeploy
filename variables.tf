@@ -1,28 +1,34 @@
 variable "name" {
-  description = "PLease specify a name for your dep"
+  description = "Please specify a name for your dep"
   type        = string
   default     = "demo"
 }
 
 variable "namespace" {
-  description = "PLease specify a namespace for your dep"
+  description = "Please specify a namespace for your dep"
   type        = string
   default     = "default"
 }
 
 variable "repository" {
-  description = "PLease specify a repository for your dep"
+  description = "Please specify a repository for your dep"
   type        = string
   default     = null
 }
 
 variable "chart" {
-  description = "PLease specify a chart for your dep"
+  description = "Please specify a chart for your dep"
   type        = string
 }
 
 variable "wait" {
-  description = "PLease specify if you want to wait or not"
+  description = "Please specify if you want to wait or not"
   type        = bool
   default     = false
+}
+
+variable "values" {
+  description = "Please specify values for your deployment"
+  type        = list(any)
+  default     = empty
 }
