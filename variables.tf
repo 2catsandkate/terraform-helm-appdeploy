@@ -1,16 +1,23 @@
-variable name {
-    description = "PLease specify a name for your dep"
-    type = string
-    default = "demo"
+variable "name" {
+  description = "PLease specify a name for your dep"
+  type        = string
+  default     = "demo"
 }
 
-variable repository {
-    description = "PLease specify a repository for your dep"
-    type = string
-    default = null
+variable "namespace" {
+  description = "PLease specify a namespace for your dep"
+  type        = string
+  default     = "default"
 }
 
-variable chart {
-    description = "PLease specify a chart for your dep"
-    type = string
+variable "repository" {
+  description = "PLease specify a repository for your dep"
+  type        = string
+  default     = null
 }
+
+variable "chart" {
+  description = "PLease specify a chart for your dep"
+  type        = string
+}
+
