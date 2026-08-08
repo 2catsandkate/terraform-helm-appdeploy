@@ -30,5 +30,5 @@ variable "wait" {
 variable "values" {
   description = "Please specify values for your deployment"
   type        = list(any)
-  default     = empty
+  default     = []
 }
