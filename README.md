@@ -40,7 +40,7 @@ replicaCount = 1
 
 }
 ```
-####Run below command
+#### Run below command
 ```
 terraform init
 terraform apply
