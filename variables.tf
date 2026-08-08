@@ -10,7 +10,7 @@ variable repository {
     default = null
 }
 
-variable name {
+variable chart {
     description = "PLease specify a chart for your dep"
     type = string
 }
