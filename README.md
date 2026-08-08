@@ -22,7 +22,7 @@ provider "helm" {
 }
 ```
 
-###Add below code to your main,tf file
+### Add below code to your main.tf file
 
 ``` 
 module name{
