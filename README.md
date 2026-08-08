@@ -34,11 +34,13 @@ module name{
   wait       = false
   values     = [<<-EOF
 
-replicaCount: 1
+controller:
+  replicaCount: 1
   
     EOF
   ]
 }
+
 ```
 #### Run below command
 ```
